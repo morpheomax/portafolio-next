@@ -7,7 +7,15 @@ export const metadata = {
 };
 
 const page = () => {
-  return <h2>Proyectos</h2>;
+  return (
+    <>
+      <div className="w-full  flex flex-col justify-center ">
+        <h2>Proyectos</h2>
+        -Landing de venta - Crud de gastos - Dashboard - Restaurant App -
+        E-commerce
+      </div>
+    </>
+  );
 };
 
 export default page;

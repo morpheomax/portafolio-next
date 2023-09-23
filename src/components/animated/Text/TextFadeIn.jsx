@@ -11,7 +11,7 @@ const textFadeIn = {
 
     transition: {
       duration: 1, // Duración de la animación de cada palabra en segundos
-      delay: 2,
+      // delay: 2,
     },
   },
 };
@@ -23,8 +23,8 @@ export const AnimatedTextFadeIn = ({ text, className = "" }) => {
       <motion.h1
         className={`inline-block  text-dark  capitalize text-sm ${className}`}
         variants={textFadeIn}
+        whileInView={"animate"}
         initial="initial"
-        animate="animate"
       >
         {text} {/* Agregar el texto dentro del elemento <h1> */}
       </motion.h1>

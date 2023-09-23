@@ -13,7 +13,7 @@ export default function Home() {
     
       <div className="p-4 sm:p-4 md:p-4 lg:p-6 xl:p-6">
       <ScrollProgress />
-        <main className="flex flex-col items-center justify-between w-full h-screen mt-20">
+        <main className="flex flex-col items-center justify-between w-full mt-20">
           <article>
             <div className="flex flex-col md:flex-row items-center justify-between w-full">
               <AnimatedImage  src="https://res.cloudinary.com/dysowtjj4/image/upload/v1695471927/IMG_5978_v41lg7.webp" width={500} />
@@ -27,10 +27,14 @@ export default function Home() {
           
 
          <About/>
-         <div className="min-h-screen flex flex-col items-center justify-center">
-       <h1 className="text-4xl font-bold mb-6">SKILLS</h1>
-        <Skills />
-    </div>
+
+         <div className="flex flex-col items-center justify-center">
+       
+                     <Skills />
+       
+        </div>
+        
+        
         </main>
 
       </div>
