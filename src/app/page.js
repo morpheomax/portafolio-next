@@ -5,6 +5,7 @@ import { AnimatedTextFadeIn } from '@/components/animated/Text/TextFadeIn';
 import About from '@/components/About';
 import Skills from '@/components/Skills';
 import ScrollProgress from '@/components/animated/Progress/ScrollProgress';
+import FormContact from '@/components/FormContact';
 
 
 export default function Home() {
@@ -31,7 +32,7 @@ export default function Home() {
          <div className="flex flex-col items-center justify-center">
        
                      <Skills />
-       
+       <FormContact/>
         </div>
         
         
