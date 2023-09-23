@@ -2,7 +2,7 @@
 // Importa las bibliotecas y componentes necesarios
 import React from "react";
 import { motion } from "framer-motion"; // Importa motion de Framer Motion
-// import Image from "next/image";
+import Image from "next/image";
 
 // Define las propiedades de la animación
 const desdeIzquierda = {
@@ -31,7 +31,7 @@ export const AnimatedImage = ({ src }) => {
         className="w-1/2"
       >
         {/* Utiliza el componente "Image" de Next.js para mostrar la imagen */}
-        <img src={src} width={500} height={500} className=" " />
+        <Image src={src} width={500} height={500} className=" " />
       </motion.div>
     </>
   );
