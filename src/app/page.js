@@ -16,7 +16,7 @@ export default function Home() {
         <main className="flex flex-col items-center justify-between w-full h-screen mt-20">
           <article>
             <div className="flex flex-col md:flex-row items-center justify-between w-full">
-              <AnimatedImage src="/assets/images/IMG_5978.jpg" width={500} />
+              <AnimatedImage img src="/assets/images/IMG_5978.jpg" width={500} />
               <div className="w-1/2">
                 <AnimatedText text={'Imagine it, design it, program it and create digital solutions, one idea at a time.'} />
                 <AnimatedTextFadeIn text={'"Discover my portfolio and witness the fusion of innovative design and robust code, as I transform ideas into captivating web experiences. With expertise in the MERN stack, powered by React.js and NEXT.js, I craft dynamic and user-friendly applications."'}/>
