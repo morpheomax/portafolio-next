@@ -4,12 +4,13 @@ import { AnimatedTextFadeIn } from "./animated/Text/TextFadeIn";
 import { motion } from "framer-motion";
 
 const images = [
-  "/assets/images/mongodb.svg",
-  "/assets/images/expressjs.svg",
-  "/assets/images/reactjs.svg",
-  "/assets/images/nodejs.svg",
-  "/assets/images/next.svg",
   "/assets/images/javascript.svg",
+  "/assets/images/reactjs.svg",
+  "/assets/images/next.svg",
+  "/assets/images/nodejs.svg",
+  "/assets/images/expressjs.svg",
+  "/assets/images/mongodb.svg",
+  "/assets/images/firebase.svg",
   "/assets/images/tailwindcss.svg",
   "/assets/images/bootstrap.svg",
   "/assets/images/html.svg",
@@ -21,7 +22,7 @@ const Skills = () => {
     <AnimatedTextFadeIn
       text={
         <>
-          <h2 className="text-4xl font-bold mb-6">SKILLS</h2>
+          <p className="text-4xl font-bold mb-6">SKILLS</p>
 
           <div className="grid grid-cols-3 gap-4">
             {images.map((image, index) => (

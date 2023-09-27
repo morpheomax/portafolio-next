@@ -6,6 +6,8 @@ import About from '@/components/About';
 import Skills from '@/components/Skills';
 import ScrollProgress from '@/components/animated/Progress/ScrollProgress';
 import FormContact from '@/components/FormContact';
+import { MapaGoogle } from '@/components/Map';
+import { FadeInComponents } from '@/components/animated/Text/FadeInComponents';
 
 
 export default function Home() {
@@ -32,10 +34,30 @@ export default function Home() {
          <div className="flex flex-col items-center justify-center">
        
                      <Skills />
-       <FormContact/>
+
+                
         </div>
+
+
         
-        
+          <div className='w-full flex flex-col md:flex-row items-center justify-center'>
+
+            {/* El formulario ocupa todo el ancho en dispositivos móviles y la mitad del ancho en pantallas medianas y grandes */}
+              <div className='w-full md:w-1/2 p-4'>
+                <FadeInComponents text={
+                 <FormContact />}
+                 />
+              </div>
+
+                  {/* El mapa ocupa todo el ancho en dispositivos móviles y dos tercios del ancho en pantallas medianas y grandes */}
+              <div className='w-full md:w-1/2 p-4'>
+              
+                   <MapaGoogle />
+              
+              </div>
+
+            </div>
+      
         </main>
 
       </div>

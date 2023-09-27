@@ -52,10 +52,13 @@ const FormContact = () => {
 
   return (
     <>
-      <div className="max-w-md mx-auto p-4 border rounded-md shadow-md">
+      <div className="max-w-3xl mx-auto p-4 border rounded-md shadow-md">
         <h2 className="text-2xl font-semibold mb-4">Contáctame</h2>
-        <form onSubmit={guardarContact}>
-          <div className="mb-4">
+        <form
+          onSubmit={guardarContact}
+          className="grid grid-cols-1 md:grid-cols-2 gap-4"
+        >
+          <div>
             <label htmlFor="nombre" className="block mb-2 text-sm font-medium">
               Nombre
             </label>
@@ -69,7 +72,7 @@ const FormContact = () => {
               required
             />
           </div>
-          <div className="mb-4">
+          <div>
             <label
               htmlFor="apellido"
               className="block mb-2 text-sm font-medium"
@@ -86,7 +89,7 @@ const FormContact = () => {
               required
             />
           </div>
-          <div className="mb-4">
+          <div>
             <label
               htmlFor="telefono"
               className="block mb-2 text-sm font-medium"
@@ -103,7 +106,7 @@ const FormContact = () => {
               required
             />
           </div>
-          <div className="mb-4">
+          <div>
             <label htmlFor="correo" className="block mb-2 text-sm font-medium">
               Email
             </label>
@@ -117,7 +120,7 @@ const FormContact = () => {
               required
             />
           </div>
-          <div className="mb-4">
+          <div className="col-span-2">
             <label
               htmlFor="comentario"
               className="block mb-2 text-sm font-medium"
@@ -135,7 +138,7 @@ const FormContact = () => {
             />
           </div>
 
-          <div className="mt-4">
+          <div className="col-span-2 mt-4">
             <button
               type="submit"
               className="w-full bg-blue-500 hover:bg-blue-600 text-white py-2 rounded-md transition duration-300 ease-in-out"

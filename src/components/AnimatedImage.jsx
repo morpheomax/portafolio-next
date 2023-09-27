@@ -31,7 +31,7 @@ export const AnimatedImage = ({ src }) => {
         className="w-1/2"
       >
         {/* Utiliza el componente "Image" de Next.js para mostrar la imagen */}
-        <Image src={src} width={500} height={500} className=" " />
+        <Image src={src} alt="Imagen" width={500} height={500} className=" " />
       </motion.div>
     </>
   );
