@@ -7,7 +7,7 @@ const About = () => {
     <div className="w-full  flex flex-col justify-center ">
       <AnimatedTextFadeIn
         text={
-          <article className="p-4 sm:p-8 md:p-10 lg:p-12 xl:p-16 flex flex-col md:flex-row">
+          <article className="p-16 sm:p-16 md:p-16 lg:p-18  flex flex-col md:flex-row">
             <section className="w-full bg-white/20 rounded-lg shadow-lg p-6 md:p-8 space-y-6">
               <h2 className="text-3xl font-semibold  text-slate-400 text-center">
                 ABOUT ME
