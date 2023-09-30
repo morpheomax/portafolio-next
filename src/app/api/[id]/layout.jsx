@@ -8,20 +8,27 @@ const fetchSinglePost = (id) => {
   }).then((res) => res.json());
 };
 
-const page = async ({ children, params }) => {
+const Page = async ({ children, params }) => {
   const { id } = params;
   const post = await fetchSinglePost(id);
 
   return (
-    <>
-      <article>
-        <h1>{post.title}</h1>
-        <p>{post.body}</p>
-        <Link href={`/api/${id}/comments`}>Ver Comentarios</Link>
+    <div className="container mx-auto mt-28">
+      <article className="bg-white p-4 border rounded-lg shadow-md ">
+        <h1 className="text-2xl font-semibold text-blue-500 hover:underline cursor-pointer mb-2">
+          {post.title}
+        </h1>
+        <p className="text-gray-700">{post.body}</p>
+        <Link
+          href={`/api/${id}/comments`}
+          className="block mt-4 text-blue-500 hover:underline"
+        >
+          Ver Comentarios
+        </Link>
         {children}
       </article>
-    </>
+    </div>
   );
 };
 
-export default page;
+export default Page;
