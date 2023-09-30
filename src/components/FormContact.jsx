@@ -53,14 +53,14 @@ const FormContact = () => {
   return (
     <>
       <div className="max-w-3xl mx-auto p-4 border rounded-md shadow-md">
-        <h2 className="text-2xl font-semibold mb-4 text-center">Contáctame</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-center">Contact me</h2>
         <form
           onSubmit={guardarContact}
           className="grid grid-cols-1 md:grid-cols-2 gap-4"
         >
           <div>
             <label htmlFor="nombre" className="block mb-2 text-sm font-medium">
-              Nombre
+              Name
             </label>
             <input
               type="text"
@@ -77,7 +77,7 @@ const FormContact = () => {
               htmlFor="apellido"
               className="block mb-2 text-sm font-medium"
             >
-              Apellido
+              Last name
             </label>
             <input
               type="text"
@@ -94,7 +94,7 @@ const FormContact = () => {
               htmlFor="telefono"
               className="block mb-2 text-sm font-medium"
             >
-              Teléfono
+              Phone
             </label>
             <input
               type="tel"
@@ -125,7 +125,7 @@ const FormContact = () => {
               htmlFor="comentario"
               className="block mb-2 text-sm font-medium"
             >
-              Comentario
+              Comment
             </label>
             <textarea
               id="comentario"
@@ -149,7 +149,7 @@ const FormContact = () => {
         </form>
         {mostrarAlert && (
           <div className="mt-4 p-2 bg-green-100 text-green-700 rounded-md">
-            ¡Mensaje enviado con éxito!
+            Message sent succesfully!
           </div>
         )}
       </div>

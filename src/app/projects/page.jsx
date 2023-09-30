@@ -1,19 +1,16 @@
+import ProjectList from "@/components/ProjectList";
 import React from "react";
 
 export const metadata = {
-  title: "Proyectos",
+  title: "Proyectos ",
   description:
-    "Proyectos creados en Stack MERN, Reactjs, Mongodb, Nextjs, JS, Express, Tailwindcss, Bootstrap",
+    "Proyectos realizados utilizando,HTML, CSS, Bootstrap, Tailwind CSS, Javascript, ReactJS, NEXT JS, NodeJS, ExpressJS, Mongodb, Firebase, NEXTUI,  ",
 };
 
 const page = () => {
   return (
     <>
-      <div className="w-full  flex flex-col justify-center ">
-        <h2>Proyectos</h2>
-        -Landing de venta - Crud de gastos - Dashboard - Restaurant App -
-        E-commerce
-      </div>
+      <ProjectList />
     </>
   );
 };
