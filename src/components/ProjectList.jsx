@@ -8,38 +8,38 @@ const ProjectList = () => {
       title: "Landing Page",
       img: "https://res.cloudinary.com/dysowtjj4/image/upload/v1695939122/landing_proy_1_obahot.png",
       url: "https://morpheomax.github.io/proyecto_1/",
-      desc: "Diseño simple de sitio web de ventas",
+      desc: "Simple website design",
     },
     {
       title: "CRUD de Gastos",
       img: "https://res.cloudinary.com/dysowtjj4/image/upload/v1695948949/CRUD_proy_2_sbvlwp.png",
       url: "https://morpheomax.github.io/proyecto_2/",
-      desc: "CRUD en JS",
+      desc: "CCRUD expense list in JS",
     },
     {
       title: "Dashboard",
       img: "https://res.cloudinary.com/dysowtjj4/image/upload/v1695949120/Dashboard_proy_3_dn3fb8.png",
       url: "https://morpheomax.github.io/api_chart/",
-      desc: "Dashboard de usuarios desde API",
+      desc: "User dashboard from API",
     },
     {
       title: "Restaurant App",
       img: "https://res.cloudinary.com/dysowtjj4/image/upload/v1695949416/restaurant-app-proy-4_qp0fmh.png",
       url: "https://proyecto4-site-restaurant.netlify.app/",
-      desc: "Landing con sistema de reservas en Firebase",
+      desc: "Landing with booking system in Firebase",
     },
     {
       title: "E-commerce",
       img: "https://res.cloudinary.com/dysowtjj4/image/upload/v1695949529/ecommerce_proy_5_o5zvil.png",
       url: "https://proy5-ecommerce.netlify.app/",
-      desc: "Sistema E-commerce stack MERN",
+      desc: "E-commerce system in Stack MERN",
     },
   ];
 
   return (
     <>
       <h2 className="mt-28 text-3xl uppercase text-center text-white mb-4 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-        Projects
+        My Projects
       </h2>
       <div className="container mx-auto ">
         <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4">
