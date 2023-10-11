@@ -14,7 +14,7 @@ const ProjectList = () => {
       title: "CRUD de Gastos",
       img: "https://res.cloudinary.com/dysowtjj4/image/upload/v1695948949/CRUD_proy_2_sbvlwp.png",
       url: "https://morpheomax.github.io/proyecto_2/",
-      desc: "CCRUD expense list in JS",
+      desc: "CRUD expense list in JS",
     },
     {
       title: "Dashboard",
