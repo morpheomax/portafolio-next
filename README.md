@@ -12,9 +12,8 @@ Este es mi portafolio personal, construido utilizando una variedad de tecnologí
 ## Tecnologías Utilizadas
 
 - **Frontend:** React.js, Next.js
-- **Backend:** Node.js, Express.js
-- **Bases de Datos:** MongoDB, Firebase
-- **Estilos:** Bootstrap, Tailwind CSS
+- **Bases de Datos:** Firebase
+- **Estilos:** Tailwind CSS
 - **Animaciones:** Framer Motion
 - **Integración de Mapas:** Google Map React
 
