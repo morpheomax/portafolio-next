@@ -1,34 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portafolio de Desarrollo Web
 
-## Getting Started
+![Wireframe del Portafolio](https://res.cloudinary.com/dysowtjj4/image/upload/v1697056053/portafolio_img/1_img_yr2ml7.png)
+![Wireframe 1](https://res.cloudinary.com/dysowtjj4/image/upload/v1697056053/portafolio_img/2_img_tkvzli.png)
+![Wireframe 2](https://res.cloudinary.com/dysowtjj4/image/upload/v1697056053/portafolio_img/3_img_n0lv7i.png)
+![Wireframe 3](https://res.cloudinary.com/dysowtjj4/image/upload/v1697056053/portafolio_img/4_img_oxyc43.png)
 
-First, run the development server:
+## Descripción
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Este es mi portafolio personal, construido utilizando una variedad de tecnologías y herramientas para el desarrollo web. Durante mi recorrido, he aplicado el conocimiento adquirido en el bootcamp Fullstack MERN y he creado un portafolio que refleja mis habilidades y experiencias en el campo del desarrollo web.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologías Utilizadas
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Frontend:** React.js, Next.js
+- **Backend:** Node.js, Express.js
+- **Bases de Datos:** MongoDB, Firebase
+- **Estilos:** Bootstrap, Tailwind CSS
+- **Animaciones:** Framer Motion
+- **Integración de Mapas:** Google Map React
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Habilidades
 
-## Learn More
+Mi conjunto de habilidades incluye:
 
-To learn more about Next.js, take a look at the following resources:
+- HTML
+- CSS
+- JavaScript
+- React.js
+- Next.js
+- Node.js
+- Express.js
+- MongoDB
+- Firebase
+- Bootstrap
+- Tailwind CSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Agradecimientos
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Quiero expresar mi agradecimiento a todas las personas y recursos que han contribuido a mi crecimiento y aprendizaje en el desarrollo web. Cada paso en este viaje ha sido posible gracias a su apoyo y orientación.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+¡Gracias por visitar mi portafolio!
