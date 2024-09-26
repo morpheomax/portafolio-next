@@ -156,7 +156,6 @@
 //     </>
 //   );
 // };
-
 "use client";
 
 import React, { useState, useEffect } from "react";
@@ -191,7 +190,7 @@ export const FormContact = () => {
 
       setMostrarAlert(true);
     } catch (error) {
-      console.error("Error al guardar la reservación:", error);
+      console.error("Error al guardar el contacto:", error);
     }
   };
 
@@ -225,7 +224,7 @@ export const FormContact = () => {
       {/* Formulario */}
       <form
         onSubmit={guardarContact}
-        className="grid grid-cols-1 md:grid-cols-2 gap-6"
+        className="grid grid-cols-1 gap-6 md:grid-cols-2"
       >
         <div>
           <label
@@ -299,7 +298,7 @@ export const FormContact = () => {
           />
         </div>
 
-        <div className="col-span-2">
+        <div className="col-span-1 md:col-span-2">
           <label
             htmlFor="comentario"
             className="block mb-2 text-lg font-bold text-gray-800 dark:text-gray-200 uppercase"
@@ -317,7 +316,7 @@ export const FormContact = () => {
           />
         </div>
 
-        <div className="col-span-2 mt-6">
+        <div className="col-span-1 md:col-span-2 mt-6">
           <button
             type="submit"
             className="w-full py-3 px-5 bg-black dark:bg-white text-white dark:text-black font-bold uppercase tracking-wider border-2 border-black dark:border-white transition-transform transform hover:scale-105"
