@@ -2,6 +2,8 @@
 import { DarkThemeToggle } from "flowbite-react";
 import { useState } from 'react';
 import Link from 'next/link';
+import LogoNav from '../../public/assets/images/logo.PNG'
+import Image from "next/image";
 
 export const NavbarComponent = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,7 +13,9 @@ export const NavbarComponent = () => {
       <div className="container mx-auto flex justify-between items-center">
         
         <Link href="/" className="text-4xl font-bold uppercase tracking-wide text-black dark:text-white">
-        <img src="/assets/images/logo.png" alt="Max Sandoval" srcset="" className="w-16 invert-0 dark:invert" />
+        <Image src={LogoNav} alt="Max Sandoval" srcset="" className="invert-0 dark:invert" 
+        width={90}
+        height={90}/>
         </Link>
         
         {/* Desktop Menu */}

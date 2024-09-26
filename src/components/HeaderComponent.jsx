@@ -1,4 +1,7 @@
 'use client'
+
+import Link from "next/link";
+
 export const HeaderComponent = () => {
   return (
     <header className="relative w-full h-screen bg-white dark:bg-black text-black dark:text-white flex flex-col justify-center items-center p-8 overflow-hidden">
@@ -37,13 +40,14 @@ export const HeaderComponent = () => {
 
       {/* Botones de acción */}
       <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6">
-        <button
+        {/* <button
           className="bg-yellow-500 text-black dark:text-black px-6 py-3 sm:px-8 sm:py-4 text-lg sm:text-xl font-bold uppercase border-4 border-black dark:border-white hover:bg-white dark:hover:bg-gray-800 transition-all duration-300"
           transition-style="in:wipe:top-right"
           style={{ '--transition__delay': '1s' }}
         >
           Descargar CV
-        </button>
+        </button> */}
+        <Link href="/projects">
         <button
           className="bg-transparent text-black dark:text-white px-6 py-3 sm:px-8 sm:py-4 text-lg sm:text-xl font-bold uppercase border-4 border-yellow-500 hover:bg-yellow-500 hover:text-black dark:hover:bg-yellow-500 dark:hover:text-black transition-all duration-300"
           transition-style="in:wipe:bottom-left"
@@ -51,6 +55,7 @@ export const HeaderComponent = () => {
         >
           Ver Proyectos
         </button>
+        </Link>
       </div>
 
       {/* Líneas decorativas animadas con animación infinita */}
