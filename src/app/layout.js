@@ -1,7 +1,9 @@
-import NavBar from '@/components/NavBar'
+import { ThemeModeScript } from "flowbite-react";
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Footer from '@/components/Footer'
+import { NavbarComponent } from "@/components/NavBarComponent";
+import ScrollProgress from "@/components/animated/Progress/ScrollProgress";
 
 
 
@@ -15,11 +17,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
   
-    <html lang="en">
-    <body className={inter.className}>
-      <NavBar />
+    <html lang="es">
+      <head>
+        <ThemeModeScript />
+      </head>
+      <body className={`${inter.className} dark:bg-gray-900`}>
+      <ScrollProgress />
+    <NavbarComponent />
+     
       <div className="min-h-screen flex flex-col">
-        <main className="flex-grow">{children}</main>
+        <main className="flex-grow  ">{children}</main>
       </div>
         <Footer />
     </body>
